@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1678722725603462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4622562484731112}
+  - component: {fileID: 114702320289062492}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4622562484731112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678722725603462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114702320289062492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678722725603462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5fcf1aa18d6a748bc3fce43c208123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_backgroundMusicList:
+  - m_name: Alert
+    m_audioClip: {fileID: 8300000, guid: 40f2de003cd3ce140be557e8e54859bd, type: 3}
+    m_looping: 1
+    m_volume: 0.849
+    m_pitch: 1.1
+    m_fadeInSpeed: 0.57
+    m_fadeOutSpeed: 0.62
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_sfxList:
+  - m_name: Jump
+    m_audioClip: {fileID: 8300000, guid: 6beab582639ff2745a61ea489948f3fe, type: 3}
+    m_looping: 0
+    m_volume: 0.552
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Coin
+    m_audioClip: {fileID: 8300000, guid: 23ef533203b76c048928fc0b52b3574d, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 3
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Die
+    m_audioClip: {fileID: 8300000, guid: 1b93be1d841ddf44f88b017053284c88, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Checkpoint
+    m_audioClip: {fileID: 8300000, guid: b73eb27508798cf4b848b28c018b220e, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: DefaultCharSound
+    m_audioClip: {fileID: 8300000, guid: 0935eca375df3de4288dfa6a30f20719, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 2
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Elevator
+    m_audioClip: {fileID: 8300000, guid: d8f75a415163ba740bb36189677e9b8b, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 0.6666667
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WGZ-c1
+    m_audioClip: {fileID: 8300000, guid: b615559df81da9444b5c9c843da082c1, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 2
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Elevator
+    m_audioClip: {fileID: 8300000, guid: d8f75a415163ba740bb36189677e9b8b, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Elevator
+    m_audioClip: {fileID: 8300000, guid: d8f75a415163ba740bb36189677e9b8b, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Elevator
+    m_audioClip: {fileID: 8300000, guid: d8f75a415163ba740bb36189677e9b8b, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_currentMusic:
+    m_name: 
+    m_audioClip: {fileID: 0}
+    m_looping: 0
+    m_volume: 0
+    m_pitch: 0
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_prevMusic:
+    m_name: 
+    m_audioClip: {fileID: 0}
+    m_looping: 0
+    m_volume: 0
+    m_pitch: 0
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}

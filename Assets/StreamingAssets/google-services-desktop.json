@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "862692284053",
+    "firebase_url": "https://polarization-671db.firebaseio.com",
+    "project_id": "polarization-671db",
+    "storage_bucket": "polarization-671db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862692284053:android:7553a2df8ac672ba076d9c",
+        "android_client_info": {
+          "package_name": "com.Wgmlgz.Polarization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862692284053-rpu2rufkauu7dn24uigv2akm7lj2qmec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjElEjIO2sQotFTnBpjtnCTMxPJ_orOzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862692284053-rpu2rufkauu7dn24uigv2akm7lj2qmec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4800162937668095~3275179920"
+    }
+  ],
+  "configuration_version": "1"
+}

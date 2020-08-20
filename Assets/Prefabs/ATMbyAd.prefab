@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!95 &6116000329396191946
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2964173936188386043}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2bfd52d5494a52a468bdcdf21a1a6aaa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &157362302216912839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 148432856, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 148432856, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148432856, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148432856, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 148432856, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645094238, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1645094238, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360375308840994, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360375308840994, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360375308840996, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 170.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632711, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632761, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4ac0bf4694eabb8499e97d3dbd8ab944, type: 3}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[6]
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[7]
+      value: "\u0427\u0442\u043E-\u0442\u043E \u043F\u043E\u0448\u043B\u043E \u043D\u0435
+        \u043F\u043E \u043F\u043B\u0430\u043D\u0443 :("
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[5]
+      value: "\u0426\u0432\u0435\u0442 \u043F\u0435\u0440\u0432\u043E\u0439 \u0436\u0430\u0431\u043A\u0438
+        - \u0421\u041C\u042D\u0420\u0422\u042C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[0]
+      value: "{;2;1;\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
+        \u0440\u0435\u043A\u043B\u0430\u043C\u0443, \u0447\u0442\u043E\u0431\u044B
+        \u0443\u0437\u043D\u0430\u0442\u044C \u0446\u0432\u0435\u0442 1 \u0436\u0430\u0431\u043A\u0438;\u041E\u0442\u043C\u0435\u043D\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[4]
+      value: "\u0412\u0441\u0435 \u043F\u0440\u043E\u0448\u043B\u043E \u043F\u043E
+        \u043F\u043B\u0430\u043D\u0443 :)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: RU.Array.data[10]
+      value: "\u0426\u0432\u0435\u0442 \u043F\u0435\u0440\u0432\u043E\u0439 \u0436\u0430\u0431\u043A\u0438
+        - \u0421\u041C\u042D\u0420\u0422\u042C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: events.Array.data[0].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BuyByAd
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[4]
+      value: Everething is OK :)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[5]
+      value: The color of the first toad - ????
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[7]
+      value: Something went wrong :(
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[6]
+      value: END
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[0]
+      value: '{;2;1;Whatch an ad, to know the color of the 1 toad;Cancel'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632763, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: EN.Array.data[10]
+      value: The color of the first toad - ????
+      objectReference: {fileID: 0}
+    - target: {fileID: 3102360376966632764, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: m_Name
+      value: ATMbyAd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6431648086458191614, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+      propertyPath: buyOnce
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+--- !u!1 &2964173936188386043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3102360376966632764, guid: 3d1b3737ee6cf7c408d1e258230eb42c, type: 3}
+  m_PrefabInstance: {fileID: 157362302216912839}
+  m_PrefabAsset: {fileID: 0}

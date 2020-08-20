@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1678722725603462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4622562484731112}
+  - component: {fileID: 114702320289062492}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4622562484731112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678722725603462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114702320289062492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678722725603462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb5fcf1aa18d6a748bc3fce43c208123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_backgroundMusicList:
+  - m_name: Cave
+    m_audioClip: {fileID: 8300000, guid: b29d19a396b01b0469217ce1f75cce43, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Factory
+    m_audioClip: {fileID: 8300000, guid: b955920848cd8bc4db9ddbb0486b63ec, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Night
+    m_audioClip: {fileID: 8300000, guid: d87c9a8ba599e5442bfaba5d2b2557a5, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Ordinary
+    m_audioClip: {fileID: 8300000, guid: eb6e90791fc8d0b41a2171bc50d4a82e, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Puzzle
+    m_audioClip: {fileID: 8300000, guid: cabafc85a86851340b261dd494848d83, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Rain
+    m_audioClip: {fileID: 8300000, guid: 90a212e83f9df664cbbdb6be32e1369b, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Snow
+    m_audioClip: {fileID: 8300000, guid: fd06ff20d196f1248b711d4c19a8f1eb, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Menu
+    m_audioClip: {fileID: 8300000, guid: 6d5deff18a8912749a200c9345de2675, type: 3}
+    m_looping: 1
+    m_volume: 50
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Moon
+    m_audioClip: {fileID: 8300000, guid: 6d5deff18a8912749a200c9345de2675, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Water
+    m_audioClip: {fileID: 8300000, guid: 44beeebccbef8d849a707d8ece6e484e, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Final
+    m_audioClip: {fileID: 8300000, guid: 23fe39006912e7d41b2ad6b4db63a30b, type: 3}
+    m_looping: 1
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_sfxList:
+  - m_name: Jump
+    m_audioClip: {fileID: 8300000, guid: fa638058d2733e149bd2d651ab5e30c6, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Coin
+    m_audioClip: {fileID: 8300000, guid: 23ef533203b76c048928fc0b52b3574d, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 3
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Death
+    m_audioClip: {fileID: 8300000, guid: 1b93be1d841ddf44f88b017053284c88, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Checkpoint
+    m_audioClip: {fileID: 8300000, guid: d0869a89faa0721408247344ba24a515, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: DefaultCharSound
+    m_audioClip: {fileID: 8300000, guid: 27c8729d463a1aa45ab9c1d42fa75482, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Elevator
+    m_audioClip: {fileID: 8300000, guid: d8f75a415163ba740bb36189677e9b8b, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 0.6666667
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WGZ-c1
+    m_audioClip: {fileID: 8300000, guid: 1981e41d2d14a16488d9c3a270eac048, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 4
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Dash
+    m_audioClip: {fileID: 8300000, guid: f71960f24ecba0444abd2992d74b47ca, type: 3}
+    m_looping: 0
+    m_volume: 0.6
+    m_pitch: 0.8
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Zhabka
+    m_audioClip: {fileID: 8300000, guid: 4d4a64315cdf70747b86a1a9b37f19bc, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Land
+    m_audioClip: {fileID: 8300000, guid: 8ab726a4b7ebd65409c2c43d840d0013, type: 3}
+    m_looping: 0
+    m_volume: 0.05
+    m_pitch: 0.5
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Portal
+    m_audioClip: {fileID: 8300000, guid: 5ee265a6383c3a14f8783be2f733dfec, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Key
+    m_audioClip: {fileID: 8300000, guid: c082353b2de22764ab45d2236c3342c5, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 2
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: KeyOff
+    m_audioClip: {fileID: 8300000, guid: 108af1b6b9466644b8865e187e8c6ac0, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 2
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: JumpPlatform
+    m_audioClip: {fileID: 8300000, guid: 804f8f13d15aa7547acc82fc5a2c3806, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WaterIn
+    m_audioClip: {fileID: 8300000, guid: 27e607940567b7448a30a8c83d6e37b4, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WaterOut
+    m_audioClip: {fileID: 8300000, guid: c5c0d01845aff8b409f2113624077edb, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: Button
+    m_audioClip: {fileID: 8300000, guid: 28b3fde76c90b364bbeed1661f531d66, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WaterIn
+    m_audioClip: {fileID: 8300000, guid: 27e607940567b7448a30a8c83d6e37b4, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WaterIn
+    m_audioClip: {fileID: 8300000, guid: 27e607940567b7448a30a8c83d6e37b4, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  - m_name: WaterIn
+    m_audioClip: {fileID: 8300000, guid: 27e607940567b7448a30a8c83d6e37b4, type: 3}
+    m_looping: 0
+    m_volume: 1
+    m_pitch: 1
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_currentMusic:
+    m_name: 
+    m_audioClip: {fileID: 0}
+    m_looping: 0
+    m_volume: 0
+    m_pitch: 0
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}
+  m_prevMusic:
+    m_name: 
+    m_audioClip: {fileID: 0}
+    m_looping: 0
+    m_volume: 0
+    m_pitch: 0
+    m_fadeInSpeed: 0
+    m_fadeOutSpeed: 0
+    m_fade: 0
+    m_object: {fileID: 0}
+    m_audioSource: {fileID: 0}

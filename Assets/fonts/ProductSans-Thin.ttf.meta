@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: f845e4c129c98494fb30a765749e9b2f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Product Sans Thin
+  fontNames:
+  - Product Sans Thin
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f526c530c5ca57049add934cf8a36959, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
