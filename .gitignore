@@ -9,7 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
-/.tmp.drivedownload/
+/.tmp.drivedownload
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
