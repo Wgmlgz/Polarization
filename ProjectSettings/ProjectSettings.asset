@@ -679,7 +679,6 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       VideosLibrary: False
       Location: False
       HumanInterfaceDevice: False
@@ -692,6 +691,7 @@ PlayerSettings:
       InternetClientServer: False
       OfflineMapsManagement: False
       Objects3D: False
+      InternetClient: False
       RemoteSystem: False
       BlockedChatMessages: False
       PhoneCall: False
@@ -714,7 +714,7 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       Proximity: False
-      InternetClient: False
+      CodeGeneration: False
       BackgroundMediaPlayback: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
@@ -780,7 +780,7 @@ PlayerSettings:
   cloudProjectId: d51e264b-a312-4c83-a50d-42a0b722b284
   framebufferDepthMemorylessMode: 0
   projectName: Polarization
-  organizationId: wgmlgz
+  organizationId: double-w-8881e5e2-7659-4d02-bfe1-457bf5952d7a
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
